@@ -116,6 +116,20 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "motorola",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "vendor.qti.gnss@4.0-service",
 	owner: "motorola",
